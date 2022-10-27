@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "advanced-native",
+    "slug": "advanced-native",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "advanced-native"
+}
