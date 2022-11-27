@@ -3,9 +3,13 @@
     "name": "advanced-native",
     "slug": "advanced-native",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "assetBundlePatterns": ["**/*"],
+    "splash": {
+      "image": "./assets/rocket-book.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#CDF0EA"
+    }
   },
+
   "name": "advanced-native"
 }
