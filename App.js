@@ -3,7 +3,8 @@ import {StyleSheet, Text, View, NativeModules, Linking} from 'react-native';
 import {Card, Button} from 'react-native-elements';
 import Ball from './src/Ball';
 import Deck from './src/Deck';
-import MapView from './src/MapView';
+import MapScreen from './src/MapView';
+// import MapView from './src/MapView';
 
 const DATA = [
   {
@@ -85,14 +86,14 @@ class App extends React.Component {
 
   render() {
     return (
-      <MapView />
-      // <View style={styles.container}>
-      //   <Deck
-      //     data={DATA}
-      //     renderCard={this.renderCard}
-      //     renderNoMoreCards={this.renderNoMoreCards}
-      //   />
-      // </View>
+      <View style={styles.container}>
+        {/* <Deck
+          data={DATA}
+          renderCard={this.renderCard}
+          renderNoMoreCards={this.renderNoMoreCards}
+        /> */}
+        <MapScreen />
+      </View>
     );
   }
 }
