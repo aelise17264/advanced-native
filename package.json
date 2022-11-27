@@ -11,19 +11,27 @@
     "prettier": "prettier --write ."
   },
   "dependencies": {
+    "@expo/webpack-config": "^0.17.0",
+    "axios": "^1.2.0",
     "eslint-config-react-native-prettier": "1.0.1",
     "expo": "46.0.16",
     "expo-splash-screen": "~0.16.2",
     "expo-status-bar": "~1.4.0",
+    "latlng-to-zip": "^0.0.2",
     "prettier": "^2.7.1",
+    "qs": "^6.11.0",
     "react": "18.0.0",
     "react-dom": "18.0.0",
     "react-native": "0.69.6",
     "react-native-elements": "3.4.2",
-    "react-native-web": "0.18.7",
+    "react-native-maps": "0.31.1",
     "react-native-safe-area-context": "4.3.1",
-    "@expo/webpack-config": "^0.17.0",
-    "react-native-maps": "0.31.1"
+    "react-native-web": "0.18.7",
+    "react-redux": "^8.0.5",
+    "redux": "^4.2.0",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.2"
   },
   "devDependencies": {
     "@babel/core": "^7.19.6",
@@ -31,8 +39,8 @@
     "@react-native-community/eslint-config": "0.0.5",
     "babel-eslint": "^10.1.0",
     "eslint": "5.0.0",
-    "eslint-plugin-react-native": "4.0.0",
     "eslint-plugin-react": "7.31.10",
+    "eslint-plugin-react-native": "4.0.0",
     "expo-splash-screen": "^0.16.2",
     "react-native-splash-screen": "^3.3.0"
   },

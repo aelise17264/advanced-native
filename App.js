@@ -4,7 +4,8 @@ import {Card, Button} from 'react-native-elements';
 import Ball from './src/Ball';
 import Deck from './src/Deck';
 import MapScreen from './src/MapView';
-// import MapView from './src/MapView';
+import * as store from './store';
+import {Provider} from 'react-redux';
 
 const DATA = [
   {
