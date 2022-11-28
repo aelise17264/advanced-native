@@ -3,9 +3,6 @@ import {StyleSheet, Text, View, NativeModules, Linking} from 'react-native';
 import {Card, Button} from 'react-native-elements';
 import Ball from './src/Ball';
 import Deck from './src/Deck';
-import MapScreen from './src/MapView';
-import * as store from './store';
-import {Provider} from 'react-redux';
 
 const DATA = [
   {
@@ -88,12 +85,11 @@ class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        {/* <Deck
+        <Deck
           data={DATA}
           renderCard={this.renderCard}
           renderNoMoreCards={this.renderNoMoreCards}
-        /> */}
-        <MapScreen />
+        />
       </View>
     );
   }
